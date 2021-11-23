@@ -4,13 +4,12 @@ class User {
   }
 
   getName() {
-  return this.name;
+    return this.name;
   }
 
-  getIntroduction(){
+  getIntroduction() {
     return `Hi, my name is ${this.name}`;
   }
 }
-
 
 module.exports = User;
