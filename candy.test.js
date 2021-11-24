@@ -8,7 +8,7 @@ describe('Candy', () => {
   });
 
   it('returns price', () => {
-    expect(candy.getPrice()).toBe(4.99);
+    expect(candy.getPrice()).toEqual(4.99);
   });
 
 });
