@@ -12,21 +12,7 @@ class Candy {
   getPrice(){
     return this.price;
   }
-
-
-
   
-    
 }
-
-
-
-
-
-
-
-
-
-
 
 module.exports = Candy;
